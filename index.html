@@ -3,23 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/public/styles/styles.css" />
     <title>Zara</title>
   </head>
   <body>
     <header>
-      <nav>
-        <h2>Moda</h2>
-        <h1>ZARA</h1>
-        <h2>Estílo</h2>
+      <nav class="flex space-between p-40 ph-100 align-center">
+        <h2 class="montserrat">Moda</h2>
+        <h1 style="font-size: 50px" class="didot">ZARA</h1>
+        <h2 class="montserrat">Estílo</h2>
       </nav>
-      <div></div>
+      <div id="barra"></div>
     </header>
     <main>
       <section>
-        <img src="/public/img/portada.png" alt="imagen de portada de zara" />
+        <img
+          src="/public/img/portada.png"
+          alt="imagen de portada de zara"
+          class="max-width"
+        />
       </section>
-      <section>
-        <div>
+      <section class="p-40 ph-100 mt-50">
+        <div class="grid-c-2 montserrat">
           <div>
             <h3>NUESTRA MODA <br />ES NUESTRA VIDA DIARIA</h3>
           </div>
@@ -32,22 +37,36 @@
             </p>
           </div>
         </div>
-        <div>
-          <img src="/public/img/mision_1.png" alt="imagen mision 1" />
-          <img src="/public/img/mision_2.png" alt="imagen mision 2" />
-          <img src="/public/img/mision_3.png" alt="imagen mision 3" />
+        <div class="grid-c-3 gap-50 mt-50">
+          <img
+            src="/public/img/mision_1.png"
+            alt="imagen mision 1"
+            class="max-width"
+          />
+          <img
+            src="/public/img/mision_2.png"
+            alt="imagen mision 2"
+            class="max-width"
+          />
+          <img
+            src="/public/img/mision_3.png"
+            alt="imagen mision 3"
+            class="max-width"
+          />
         </div>
       </section>
-      <section>
+      <section
+        class="grid-c-2 align-center bg-primary p-40 ph-100 gap-50 white-color montserrat"
+      >
         <div>
-          <h4>NUESTRA HISTORIA</h4>
-          <p>
-            Fundada en 1975 por Amancio Ortega y Rosalía Mera. Somos el
-            minorista de indumentaria más grande del mundo con más de 2200
-            tiendas y con una amplia presencia en todos los continentes.
+          <h4 style="font-size: 40px;">NUESTRA HISTORIA</h4>
+          <p class="mt-30">
+            Fundada en 1975 por Amancio Ortega y Rosalía Mera. <br /> <br>
+            Somos el minorista de indumentaria más grande del mundo con más de
+            2200 tiendas y con una amplia presencia en todos los continentes.
           </p>
         </div>
-        <div>
+        <div class="flex column gap-50">
           <img src="/public/img/historia_1.png" alt="historia 1" />
           <img src="/public/img/historia_2.png" alt="historia 2" />
         </div>

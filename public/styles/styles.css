@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.white-color{
+    color: white;
+}
+
+.flex {
+    display: flex;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.gap-50{
+    gap: 50px;
+}
+
+.grid-c-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-c-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+
+}
+
+.p-40 {
+    padding: 40px;
+}
+
+.mt-50{
+    margin-top: 50px;
+}
+
+.mt-30{
+    margin-top: 30px;
+}
+
+.ph-100 {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.max-width {
+    width: 100%;
+}
+
+.montserrat {
+    font-family: montserrat;
+    font-weight: 300;
+}
+
+.didot {
+    font-family: 'GFS Didot', serif;
+}
+
+.bg-primary{
+    background-color: #2A3439;
+}
+
+#barra {
+    background-color: #2A3439;
+    padding: 25px;
+}
