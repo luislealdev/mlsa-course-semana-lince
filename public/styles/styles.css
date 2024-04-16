@@ -5,7 +5,7 @@
     margin: 0;
 }
 
-.white-color{
+.white-color {
     color: white;
 }
 
@@ -13,11 +13,11 @@
     display: flex;
 }
 
-.column{
+.column {
     flex-direction: column;
 }
 
-.gap-50{
+.gap-50 {
     gap: 50px;
 }
 
@@ -44,11 +44,11 @@
     padding: 40px;
 }
 
-.mt-50{
+.mt-50 {
     margin-top: 50px;
 }
 
-.mt-30{
+.mt-30 {
     margin-top: 30px;
 }
 
@@ -70,8 +70,12 @@
     font-family: 'GFS Didot', serif;
 }
 
-.bg-primary{
+.bg-primary {
     background-color: #2A3439;
+}
+
+.bg-secondary {
+    background-color: #590646;
 }
 
 #barra {

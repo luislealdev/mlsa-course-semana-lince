@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/public/styles/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Zara</title>
   </head>
   <body>
@@ -59,29 +66,41 @@
         class="grid-c-2 align-center bg-primary p-40 ph-100 gap-50 white-color montserrat"
       >
         <div>
-          <h4 style="font-size: 40px;">NUESTRA HISTORIA</h4>
+          <h4 style="font-size: 40px">NUESTRA HISTORIA</h4>
           <p class="mt-30">
-            Fundada en 1975 por Amancio Ortega y Rosalía Mera. <br /> <br>
+            Fundada en 1975 por Amancio Ortega y Rosalía Mera. <br />
+            <br />
             Somos el minorista de indumentaria más grande del mundo con más de
             2200 tiendas y con una amplia presencia en todos los continentes.
           </p>
         </div>
         <div class="flex column gap-50">
-          <img src="/public/img/historia_1.png" alt="historia 1" />
-          <img src="/public/img/historia_2.png" alt="historia 2" />
+          <img
+            src="/public/img/historia_1.png"
+            alt="historia 1"
+            class="max-width"
+          />
+          <img
+            src="/public/img/historia_2.png"
+            alt="historia 2"
+            class="max-width"
+          />
         </div>
       </section>
-      <section>
-        <div>
-          <h2>Encuéntranos</h2>
+      <section class="grid-c-2 p-40 ph-100 align-center">
+        <div class="montserrat">
+          <h2>ENCUÉNTRANOS</h2>
           <p>Disponibles para ti cuando nos necesitas</p>
-          <div>
+          <div class="mt-50 flex">
+            <i class="fa-solid fa-location-dot"></i>
             <p>Av. Paseo de las Aves #35</p>
           </div>
-          <div>
+          <div class="mt-30 flex">
+            <i class="fa-solid fa-clock"></i>
             <p>Lun - Vie 11am - 8pm</p>
           </div>
-          <div>
+          <div class="mt-30 flex">
+            <i class="fa-solid fa-phone"></i>
             <p>461 138 9876</p>
           </div>
         </div>
@@ -93,9 +112,10 @@
           allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
+          class="max-width"
         ></iframe>
       </section>
-      <footer>
+      <footer class="bg-secondary white-color p-40" style="text-align: center">
         <p>ZARA</p>
       </footer>
     </main>
